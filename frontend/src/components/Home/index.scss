@@ -1,0 +1,34 @@
+.introduction {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  .text-zone {
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 6%;
+  }
+  .group-picture {
+    width: 45%;
+    height: 30px;
+    position: relative;
+    left: 25%;
+    img {
+      object-fit: contain;
+      max-width: 45%;
+      max-height: fit-content;
+    }
+  }
+}
+
+.question {
+  margin-top: 5%;
+  margin-left: 6%;
+
+  fieldset {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+  }
+}

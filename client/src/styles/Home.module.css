@@ -1,0 +1,883 @@
+/* homepage */
+
+.home_btn {
+  border-radius: 12px;
+  background: linear-gradient(90.95deg, #702d6c -18.25%, #ffc72c 123.49%);
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.nav {
+  height: 100px;
+  background: #1b0a1a;
+  width: 1440px;
+}
+
+.navbar {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  width: 1190.38px;
+  height: 56px;
+  position: relative;
+  top: 22px;
+  left: 80.81px;
+  gap: 400px;
+}
+
+.nav_left {
+  display: flex;
+  gap: 56px;
+}
+
+.nav_left p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.nav_left img {
+  width: 50.38px;
+  height: 56px;
+}
+
+.nav_right {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.nav_right img {
+  width: 32px;
+  height: 32px;
+}
+
+.section {
+  margin-top: 100px;
+  margin-left: 80.81px;
+  display: flex;
+  align-items: center;
+  gap: 157px;
+}
+
+.left_section h1 {
+  width: 567px;
+  height: 144px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 120%;
+  color: #ffc72c;
+}
+
+.left_section p {
+  width: 520px;
+  height: 72px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.left_section button {
+  color: #ffffff;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+  text-align: center;
+}
+
+.left_section div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 4em;
+}
+
+.left_section img {
+  width: 60px;
+  height: 60px;
+}
+
+.right_section {
+  width: 545px;
+  height: 690px;
+  position: relative;
+}
+
+.right_section::before {
+  content: "";
+  position: absolute;
+  background: #ffc72c;
+  opacity: 0.12;
+  filter: blur(100px);
+  width: 1557px;
+  height: 200px;
+  left: 120px;
+  top: 555px;
+}
+
+.faq {
+  width: 1192px;
+  position: relative;
+  left: 107px;
+}
+
+.faq h3 {
+  width: 98px;
+  height: 48px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  color: #ffc72c;
+  margin: 0px;
+  margin-bottom: 0.5em;
+}
+
+.faq div {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 858px;
+}
+
+.footer {
+  width: 1440px;
+  height: 320px;
+  position: relative;
+  bottom: 0px;
+  background: linear-gradient(
+    134.47deg,
+    rgba(255, 199, 44, 0.16) 4.92%,
+    rgba(255, 199, 44, 0) 50%
+  );
+  filter: drop-shadow(0px -12px 4px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 350px;
+}
+
+.footer::after {
+  content: "";
+  border: 1.5px solid rgba(254, 121, 71, 0.2);
+  position: absolute;
+  width: 1435.5px;
+  height: 0px;
+  left: 2.5px;
+  top: 248px;
+}
+
+.left_footer {
+  display: flex;
+  align-items: center;
+  margin-left: -100px;
+  gap: 10px;
+  align-content: center;
+}
+
+.left_footer img {
+  width: 107.97px;
+  height: 120px;
+}
+
+.left_footer h2 {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #ffffff;
+  width: 269px;
+  height: 116px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+.right_footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.right_footer h4 {
+  color: #ffc72c;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  width: 113px;
+  height: 48px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.right_footer div {
+  display: flex;
+  gap: 32px;
+  width: 424px;
+}
+
+.right_footer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  display: flex;
+  align-content: center;
+  gap: 8px;
+}
+
+.right_footer span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  width: 237px;
+  height: 30px;
+  color: #ffffff;
+}
+
+/* about collections page */
+
+.details {
+  overflow: hidden;
+}
+
+.about_top {
+  margin-left: 80.81px;
+  margin-top: 60px;
+  display: flex;
+  gap: 52px;
+}
+
+.image_div {
+  gap: 16px;
+}
+
+.image_div p {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  gap: 8px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+}
+
+.nft_details h4 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+  width: 216px;
+  height: 30.18px;
+}
+
+.nft_details p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  width: 566px;
+  height: 78px;
+  color: #ffffff;
+}
+
+.nft_details ul {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-left: 0px;
+  padding-left: 1em;
+  margin-top: 2em;
+}
+
+.nft_details li {
+  margin-bottom: 28px;
+  margin-left: 0px;
+}
+
+.about_bottom {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80.81px;
+}
+
+.about_bottom .line {
+  position: absolute;
+  width: 1194px;
+  height: 0px;
+  border: 1.5px solid #ffc72c;
+  top: 60px;
+}
+
+.about_bottom p {
+  width: 293px;
+  height: 41.66px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.about_bottom div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 290px;
+  margin-top: -1.7em;
+}
+
+.about_bottom div p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ffffff;
+  width: 191px;
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about_bottom div p span {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19.2px;
+  width: 191px;
+  height: 68px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.about_bottom button {
+  width: 240px;
+  height: 60px;
+  color: #ffffff;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+
+  text-align: center;
+}
+
+/* mint nft page */
+
+.mint {
+  overflow: hidden;
+}
+
+.mint_details {
+  display: flex;
+  gap: 160px;
+  margin-left: 80.81px;
+}
+
+.mint_details .left {
+  margin-top: 100px;
+}
+
+.mint_details .left div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mint_details .left div p {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  gap: 8px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  gap: 16px;
+}
+
+.mint_details .left div span {
+  width: 129px;
+  height: 29px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #dcdcdc;
+  text-transform: uppercase;
+}
+
+.mint_details .right {
+  background: linear-gradient(
+    134.47deg,
+    rgba(255, 199, 44, 0.16) 4.92%,
+    rgba(255, 199, 44, 0) 50%
+  );
+  backdrop-filter: blur(22px);
+  border-radius: 16px;
+  width: 430px;
+  height: 522px;
+  border-radius: 16px;
+  margin-top: 63px;
+  padding: 54px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 190px;
+}
+
+.mint_details .right::before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+  z-index: -1;
+}
+
+.mint_details .package h5 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ffc72c;
+  width: 157px;
+  height: 19px;
+  margin: 0px;
+}
+
+.mint_details .package p {
+  width: 241px;
+  height: 38px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.mint_details .price div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mint_details .price span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  width: 118px;
+  height: 24px;
+  color: #bdbdbd;
+}
+
+.mint_details .price p {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  width: 129px;
+  height: 29px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.mint_btn {
+  place-self: center;
+}
+
+.mint_details .mint_btn button {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  width: 360px;
+  height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mint_details .mint_btn p {
+  width: 363px;
+  height: 44px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #dcdcdc;
+  margin-top: 15px;
+}
+
+/* sidebar */
+.sidebar {
+  position: relative;
+  width: 280px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  background: #130712;
+  box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.25);
+  z-index: -1;
+
+  padding-top: 70px;
+  /* padding-left: 30px; */
+  overflow: hidden;
+}
+
+.sidebar::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -61px;
+  top: 924px;
+  background: linear-gradient(
+    314.34deg,
+    #ffc72c 4.39%,
+    #702d6c 86.86%,
+    #702d6c 91.4%
+  );
+  opacity: 0.8;
+  filter: blur(38px);
+}
+
+.sidebar p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+  width: 246px;
+  height: 48px;
+}
+
+.the_one {
+  background: rgba(255, 199, 44, 0.12);
+  border-right: 4px solid #ffc72c;
+}
+
+.sidebar p img {
+  width: 24px;
+  height: 24px;
+}
+
+/* dashboard */
+/* header */
+
+.d_nav {
+  height: 100px;
+  width: 1440px;
+  background: rgba(27, 10, 26, 0.4);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+}
+
+.d_navbar {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  width: 1190.38px;
+  height: 56px;
+  position: relative;
+  top: 22px;
+  left: 80.81px;
+  gap: 400px;
+}
+
+.d_nav_left {
+  display: flex;
+  gap: 56px;
+}
+
+.d_nav_left p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.d_nav_left img {
+  width: 50.38px;
+  height: 56px;
+}
+
+.d_nav_right {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.d_nav_right img {
+  width: 32px;
+  height: 32px;
+}
+
+.dashboard {
+  overflow: hidden;
+  position: relative;
+}
+
+.dark_rec {
+  position: absolute;
+  width: 1080px;
+  height: 225px;
+  left: 360px;
+  top: 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.47),
+    rgba(217, 217, 217, 0)
+  );
+  z-index: -1;
+}
+
+.user_pic_cont {
+  position: absolute;
+  width: 173px;
+  height: 173px;
+  left: 382px;
+  top: 88px;
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+
+.profile_pic {
+  width: 190.96px;
+  height: 173.64px;
+}
+
+.username {
+  display: flex;
+  position: absolute;
+  left: 382px;
+  top: 292px;
+  /* align-items: baseline; */
+  justify-content: space-between;
+  width: 900px;
+}
+
+.username div {
+  display: flex;
+  flex-direction: column;
+}
+
+.username div p {
+  display: flex;
+  gap: 40px;
+}
+
+.username div span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  width: 165px;
+  height: 38px;
+  color: #ffffff;
+}
+
+.username div img {
+  width: 32px;
+  height: 32px;
+}
+
+.username h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffc72c;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: -1em;
+}
+
+.username h6 img {
+  width: 24px;
+  height: 24px;
+}
+
+.collections {
+  position: absolute;
+  width: 768px;
+  height: 558px;
+  top: 433px;
+  left: 382px;
+}
+
+.collections::after {
+  content: "";
+  position: absolute;
+  width: 1557px;
+  height: 200px;
+  left: calc(50% - 1557px / 2 + 983.5px);
+  top: 455px;
+  background: #ffc72c;
+  opacity: 0.12;
+  filter: blur(100px);
+}
+
+.collections::before {
+  content: "";
+  position: absolute;
+  width: 399px;
+  height: 399px;
+  left: -330px;
+  top: 589px;
+  background: linear-gradient(
+    314.34deg,
+    #ffc72c 4.39%,
+    #702d6c 86.86%,
+    #702d6c 91.4%
+  );
+  opacity: 0.4;
+  filter: blur(50px);
+}
+
+.collections .row {
+  display: flex;
+}
+
+.collections h4 {
+  width: 256px;
+  height: 38px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 240px;
+  height: 240px;
+  background: #130712;
+  box-shadow: -2px 4px 4px rgba(255, 199, 44, 0.08);
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  border: 1.5px solid #ffc72c;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card .card_cont {
+  width: 240px;
+  height: 160px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card h6 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.card img {
+  width: 20px;
+  height: 20px;
+}
+
+.card span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 120%;
+  color: #989898;
+  margin-left: 10px;
+}
+
+.card p {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: 10px;
+}
